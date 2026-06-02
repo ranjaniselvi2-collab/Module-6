@@ -1,31 +1,18 @@
 ## Ex-6:Python OOP: Abstract Class & Method Example
 
 ## Aim:
-To create an abstract class named Shape with an abstract method calculate_area, and implement this method in two subclasses: Rectangle and Circle.
+To write a Python program to demonstrate an Abstract Class and Abstract Method.
 
 ## Algorithm:
-1. Import ABC module:
-   
-    Use from abc import ABC, abstractmethod to define abstract classes and methods.
-   
-2. Create Abstract Class Shape:
-   
-    Define an abstract method calculate_area() with @abstractmethod.
-   
-3. Create Subclass Rectangle:
-   
-    Set default values for length and breadth.
-    Override calculate_area() to compute the rectangle area.
-   
-4. Create Subclass Circle:
-   
-    Set default value for radius.
-    Override calculate_area() to compute the circle area.
-   
-5. Create Objects & Call Methods:
-   Instantiate Rectangle and Circle.
-   Call their calculate_area() methods.
-   
+
+1.Import ABC and abstractmethod from the abc module.
+2.Create an abstract class Animal.
+3.Define an abstract method sound().
+4.Create a child class Dog and implement the sound() method.
+5.Create an object of the Dog class.
+6.Call the sound() method.
+7.Display the output.
+
 ## Program:
 ```
 from abc import ABC, abstractmethod
@@ -53,25 +40,18 @@ Thus, the Python program for Abstract Class and Abstract Method was executed suc
 ## Ex-6:Python OOP: Encapsulation with Private Members
 
 ## Aim:
-To implement Encapsulation in Python by defining a class Rectangle with private member variables __length and __breadth.
+To write a Python program to demonstrate Encapsulation using Private Members.
 
 ## Algorithm:
-1. Define the Class:
-   
-   Create a class Rectangle with two private attributes: __length and __breadth.
-   
-2. Initialize Variables:
-   
-   Use the __init__() constructor to set initial values for __length and __breadth.
-   
-3. Print Values:
-   
-   Display the private variables from within the class to demonstrate access.
-   
-4. Instantiate the Object:
-   
-   Create an object of the Rectangle class to trigger the constructor.
-   
+
+1.Define a class Student.
+2.Create a private data member using __mark.
+3.Define a method to display the private member.
+4.Create an object of the class.
+5.Call the display method.
+6.Display the output.
+7.End the program.
+
 ## Program:
 ```
 class Student:
@@ -93,18 +73,18 @@ Thus, the Python program for Encapsulation using Private Members was executed su
 
 ## Ex-6:Method Overriding-Fish and Shark Class Inheritance in Python
 
-##  AIM:
-To write a Python program that demonstrates class inheritance by creating a parent class Fish with a method type, and a child class Shark that overrides the type method.
+##  Aim:
+To write a Python program to demonstrate Method Overriding using Fish and Shark class inheritance.
 
-## ALGORITHM:
+## Algorithm:
 
-1.Define the Fish class with a method named type() that prints "fish".
-2.Define the Shark class as a subclass of Fish, and override the type() method to print "shark".
-3.Create an instance of the Fish class named obj_goldfish.
-4.Create an instance of the Shark class named obj_hammerhead.
-5.Use a for loop to iterate over both objects.
-6.Within the loop, call the type() method using the loop variable.
-7.Output will demonstrate method overriding: printing "fish" and "shark" accordingly.
+1.Define a parent class Fish with a method swim().
+2.Define a child class Shark that inherits from Fish.
+3.Override the swim() method in the Shark class.
+4.Create an object of the Shark class.
+5.Call the swim() method.
+6.Display the output.
+7.End the program.
 
 ## PROGRAM:
 ```
