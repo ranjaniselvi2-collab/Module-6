@@ -6,11 +6,17 @@ To write a Python program to demonstrate an Abstract Class and Abstract Method.
 ## Algorithm:
 
 1.Import ABC and abstractmethod from the abc module.
+
 2.Create an abstract class Animal.
+
 3.Define an abstract method sound().
+
 4.Create a child class Dog and implement the sound() method.
+
 5.Create an object of the Dog class.
+
 6.Call the sound() method.
+
 7.Display the output.
 
 ## Program:
@@ -45,11 +51,17 @@ To write a Python program to demonstrate Encapsulation using Private Members.
 ## Algorithm:
 
 1.Define a class Student.
-2.Create a private data member using __mark.
+
+2.Create a private data member using __mark. 
+
 3.Define a method to display the private member.
+
 4.Create an object of the class.
+
 5.Call the display method.
+
 6.Display the output.
+
 7.End the program.
 
 ## Program:
@@ -79,11 +91,17 @@ To write a Python program to demonstrate Method Overriding using Fish and Shark 
 ## Algorithm:
 
 1.Define a parent class Fish with a method swim().
+
 2.Define a child class Shark that inherits from Fish.
+
 3.Override the swim() method in the Shark class.
+
 4.Create an object of the Shark class.
+
 5.Call the swim() method.
+
 6.Display the output.
+
 7.End the program.
 
 ## PROGRAM:
@@ -114,11 +132,17 @@ To write a Python program to demonstrate Operator Overloading using the Less Tha
 ## Algorithm:
 
 1.Define a class Number.
+
 2.Create a constructor to initialize the value.
+
 3.Overload the __lt__() method to compare two objects.
+
 4.Create two objects with different values.
+
 5.Compare the objects using the < operator.
+
 6.Display the result.
+
 7.End the program.
 
 ## Program:
@@ -151,11 +175,17 @@ To write a Python program to demonstrate Polymorphism using classes.
 ## Algorithm:
 
 1.Define a class Dog with a method sound().
+
 2.Define a class Cat with a method sound().
+
 3.Create a function make_sound() that calls the sound() method.
+
 4.Create objects of Dog and Cat.
+
 5.Pass the objects to the make_sound() function.
+
 6.Display the respective sounds.
+
 7.End the program.
 
 ## Program:
