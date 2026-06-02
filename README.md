@@ -97,13 +97,15 @@ Thus, the Python program for Encapsulation using Private Members was executed su
 To write a Python program that demonstrates class inheritance by creating a parent class Fish with a method type, and a child class Shark that overrides the type method.
 
 ## ALGORITHM:
-Define the Fish class with a method named type() that prints "fish".
-Define the Shark class as a subclass of Fish, and override the type() method to print "shark".
-Create an instance of the Fish class named obj_goldfish.
-Create an instance of the Shark class named obj_hammerhead.
-Use a for loop to iterate over both objects.
-Within the loop, call the type() method using the loop variable.
-Output will demonstrate method overriding: printing "fish" and "shark" accordingly.
+
+1.Define the Fish class with a method named type() that prints "fish".
+2.Define the Shark class as a subclass of Fish, and override the type() method to print "shark".
+3.Create an instance of the Fish class named obj_goldfish.
+4.Create an instance of the Shark class named obj_hammerhead.
+5.Use a for loop to iterate over both objects.
+6.Within the loop, call the type() method using the loop variable.
+7.Output will demonstrate method overriding: printing "fish" and "shark" accordingly.
+
 ## PROGRAM:
 ```
 class Fish:
@@ -127,26 +129,18 @@ Thus, the Python program for Method Overriding using Fish and Shark class inheri
 ## Ex-6:Python OOP: Operator Overloading (Less Than <)
 
 ##  Aim:
-To write a Python program that demonstrates operator overloading by overloading the less than (<) operator using a custom class.
+To write a Python program to demonstrate Operator Overloading using the Less Than (<) operator.
 
 ## Algorithm:
-1.Create Class A:
 
-    Define the __init__() method to initialize the object with a value a.
+1.Define a class Number.
+2.Create a constructor to initialize the value.
+3.Overload the __lt__() method to compare two objects.
+4.Create two objects with different values.
+5.Compare the objects using the < operator.
+6.Display the result.
+7.End the program.
 
-2.Overload the < Operator:
-
-     Define the __lt__() method with logic:
-          If self.a < o.a, return "ob1 is less than ob2"
-          Else, return "ob2 is less than ob1"
-   
-3.Create Objects:
-
-    Instantiate two objects ob1 and ob2 with values.
-
-4.Use < Operator:
-
-   Use print(ob1 < ob2) to trigger the overloaded behavior.
 ## Program:
 ```
 class Number:
@@ -172,24 +166,18 @@ Thus, the Python program for Operator Overloading using the Less Than (<) operat
 ## Ex-6:Python OOP: Polymorphism with Classes
 
 ## Aim:
-To create two specific classes — Beans and Mango. Then, create a generic function that can accept any object and determine its type (Fruit or Vegetable) and color, using polymorphism.
+To write a Python program to demonstrate Polymorphism using classes.
 
 ## Algorithm:
-Create Class Beans:
 
-Define type() method that prints "Vegetable".
-Define color() method that prints "Green".
-Create Class Mango:
+1.Define a class Dog with a method sound().
+2.Define a class Cat with a method sound().
+3.Create a function make_sound() that calls the sound() method.
+4.Create objects of Dog and Cat.
+5.Pass the objects to the make_sound() function.
+6.Display the respective sounds.
+7.End the program.
 
-Define type() method that prints "Fruit".
-Define color() method that prints "Yellow".
-Define Generic Function func(obj):
-
-Call obj.type() and obj.color() — this works with both Beans and Mango objects, showcasing polymorphism.
-Create Objects:
-
-Instantiate Beans and Mango.
-Pass them to func() and execute the program.
 ## Program:
 ```
 class Dog:
